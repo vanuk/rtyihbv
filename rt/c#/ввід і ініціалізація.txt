@@ -1,0 +1,49 @@
+using System;
+
+namespace mr
+{
+    class pr
+    {
+        static void Main(string[] args)
+        {
+            int x;
+            x = 342;
+            int y;
+            y = 234;
+
+            int z=x*y;
+
+            int age = 74;
+
+            double t=3.45;
+
+            bool a = false;
+
+            char symvol = '@';
+
+            string name= "retr";
+
+            Console.WriteLine(" your age :"+age);
+            Console.WriteLine(t);
+            Console.WriteLine("are you  " + a);
+            Console.WriteLine("your sum  " + symvol);
+            Console.WriteLine("your name    "+ name);
+
+            String username = symvol + name;
+
+            Console.WriteLine("dfdsf   "+username);
+
+
+
+
+
+
+
+            
+
+            Console.ReadKey();
+
+
+        }
+    }
+}
